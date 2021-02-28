@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as firebase from 'firebase';
+import firebase from 'firebase/app'
 
 var config = {
   apiKey: "AIzaSyAmDYLiqikrosA0IjB_m_pZWaR0krPd7q8",
