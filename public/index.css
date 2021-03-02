@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button {
+  background-color: unset;
+  border: unset;
+  padding: 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -45,4 +51,22 @@ body::-webkit-scrollbar {
 
 .flex-child {
 
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-logo-wrapper {
+  flex-grow: 0;
+  flex-basis: 50%;
+}
+
+.nav-link-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
+
+.nav-link {
+  flex-grow: 1;
 }
