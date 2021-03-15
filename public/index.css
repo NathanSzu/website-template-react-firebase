@@ -48,25 +48,3 @@ body::-webkit-scrollbar {
   display: flex;
   flex-wrap: wrap;
 }
-
-.flex-child {
-
-}
-
-.nav {
-  display: flex;
-}
-
-.nav-logo-wrapper {
-  flex-grow: 0;
-  flex-basis: 50%;
-}
-
-.nav-link-wrapper {
-  display: flex;
-  flex-grow: 1;
-}
-
-.nav-link {
-  flex-grow: 1;
-}
