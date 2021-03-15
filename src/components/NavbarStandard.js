@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, useLocation } from "react-router-dom"
 
 export default function NavbarStandard() {
     return (
@@ -7,8 +8,8 @@ export default function NavbarStandard() {
 
             </div>
             <div className='nav-link-wrapper'>
-                <button className='nav-link'>Home</button>
-                <button className='nav-link'>About</button>
+                <Link to='/'>Home</Link>
+                <Link to='/shop-online'>Shop</Link>
                 <button className='nav-link'>Contact</button>
             </div>
         </nav>
